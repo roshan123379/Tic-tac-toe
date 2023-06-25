@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    width: 9cm;
+    height: 9cm;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.heading{
+    width: 9cm;
+    height: 2cm;
+    background-color: rgb(66, 66, 88);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.3cm;
+    font-family: 'Varela Round', sans-serif;
+}
+#para{
+    width: 9cm;
+    height: 1cm;
+    text-align: center;
+    font-size: 25px;
+
+}
+#div1,#div4,#div7{
+
+    border-left: none;
+}
+#div1,#div2,#div3{
+
+    border-top: none;
+}
+#div3,#div6,#div9{
+
+    border-right: none;
+}
+#div7,#div8,#div9{
+
+    border-bottom: none;
+}
+.container button{
+    border: 1px solid black;
+}
+button{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
